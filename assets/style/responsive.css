@@ -1,0 +1,396 @@
+@media (max-width: 991px) {
+    /* Header */
+
+    .nft__button1 {
+        display: none;
+    }
+
+    #main__nav {
+        width: 90%;
+    }
+
+    .header__nav {
+        min-height: 310px;
+        display: none;
+        background: rgba(23, 14, 34, 0.97);
+        width: 100%;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        justify-content: center;
+        animation: TopToBottom 3s ease;
+    }
+
+    .header__nav.active {
+        display: flex;
+    }
+
+    .header__nav ul {
+        flex-direction: column;
+    }
+
+    .nav__icon {
+        display: block;
+    }
+
+    .nav__icon i:last-child {
+        display: none;
+    }
+
+    nav__icon i:last-child.active {
+        display: block;
+    }
+
+    /* Section-1 */
+
+    #sec__1 {
+        min-height: 1070px;
+    }
+
+    .sec1__content {
+        min-height: 1000px;
+    }
+
+    .inner__content {
+        flex-direction: column;
+        gap: var(--nft--gap--3);
+    }
+
+    .sec1__txt,
+    .sec1__img,
+    .footermain__nav {
+        width: 100%;
+    }
+
+    .sec1__img {
+        justify-content: center;
+    }
+
+    .sec1__img .sec1__img1:nth-child(1) {
+        min-height: 500px;
+    }
+
+    .sec1__img1 img {
+        height: 200px;
+    }
+
+    /* Section-2 */
+
+    .sec2__catg {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .categories__box {
+        min-height: 326px;
+    }
+
+    /* Section-3 */
+
+    .sec3__seller {
+        grid-template-columns: 1fr;
+    }
+
+    .sbox__inner {
+        min-height: 430px;
+    }
+
+    /* Section-6 */
+
+    .sec6__accordin {
+        grid-template-columns: 1fr;
+    }
+
+    /* Section-7 */
+
+    .sec7__blog {
+        grid-template-columns: 1fr;
+    }
+
+    .sec7blog__box {
+        min-height: 390px;
+    }
+
+    /* Footer */
+
+    #main__footer {
+        min-height: 650px;
+    }
+
+    .footer__inner {
+        min-height: 580px;
+    }
+
+    .footer__top {
+        min-height: 440px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ftop__sec {
+        width: 45%;
+    }
+}
+
+/* ========================================= */
+
+@media (max-width: 767px) {
+    /* Section-1 */
+
+    .sec1__title h1,
+    .sec1__title h2 {
+        font-size: 40px;
+    }
+
+    .sec2__heading p,
+    .sec3__heading p,
+    .sec4__heading p,
+    .sec5__heading p,
+    .sec6__heading p,
+    .sec7__heading p {
+        width: 80%;
+    }
+
+    .sec2__catg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories__box {
+        min-height: 358px;
+    }
+
+    /* Section-4 */
+
+    .sec4__img {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--nft--gap--2);
+    }
+
+    .showcase__img img {
+        border-radius: var(--nft--borderradius--7);
+    }
+
+    .sec4__boxes {
+        min-height: 670px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    /* Section-5 */
+
+    .sec5__catg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer */
+
+    #main__footer {
+        min-height: 620px;
+    }
+
+    .footer__nav h6 {
+        font-size: 16px;
+    }
+
+    .footer__nav nav ul li a {
+        font-size: var(--nft--fontsize--2);
+    }
+
+    .footer__inner {
+        min-height: 550px;
+    }
+}
+
+/* ========================================= */
+
+@media (max-width: 575px) {
+    /* Header */
+
+    .header__logo img,
+    .ftop__sec a img {
+        max-width: 100px;
+    }
+
+    /* Section-1 */
+
+    #sec__1 {
+        min-height: 970px;
+    }
+
+    .amr__h5 {
+        font-size: 26px;
+    }
+
+    .sec1__content {
+        min-height: 900px;
+    }
+
+    .sec1__title h1,
+    .sec1__title h2 {
+        font-size: 30px;
+    }
+
+    .inner__content {
+        gap: var(--nft--gap--3);
+    }
+
+    .sec1__desc p,
+    .sec1__btn button {
+        font-size: var(--nft--fontsize--2);
+    }
+
+    .sec1__btn button {
+        width: 100px;
+        height: 35px;
+        border-radius: 6px;
+    }
+
+    .sec1__img .sec1__img1:nth-child(1) {
+        min-height: 400px;
+    }
+
+    .sec1__img1 img {
+        height: 160px;
+    }
+
+    /* Section-2 */
+
+    .sec2__title,
+    .sec3__title,
+    .sec4__title,
+    .sec5__title,
+    .sec6__title,
+    .sec7__title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: var(--nft--gap--1);
+    }
+
+    .sec2__heading p,
+    .sec3__heading p,
+    .sec4__heading p,
+    .sec5__heading p,
+    .sec6__heading p,
+    .sec7__heading p {
+        width: 100%;
+    }
+
+    .sec2__catg {
+        grid-template-columns: 1fr;
+    }
+
+    .categories__box {
+        min-height: 520px;
+    }
+
+    /* Section-3 */
+
+    .amr__h6 {
+        font-size: 18px;
+    }
+
+    .sbox__inner {
+        min-height: 350px;
+    }
+
+    /* Section-4 */
+
+    .sec4__img {
+        gap: var(--nft--gap--1);
+    }
+
+    .sec4box__icon span {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sec4box__txt p {
+        font-size: var(--nft--fontsize--1);
+    }
+
+    /* Section-5 */
+
+    .sec5__catg {
+        gap: var(--nft--gap--1);
+    }
+
+    .sec5__catg .catg__box {
+        height: 200px;
+    }
+
+    .catg__box span {
+        width: 60px;
+        height: 30px;
+    }
+
+    .faq__ques h6 {
+        font-size: 14px;
+    }
+
+    /* Section-7 */
+
+    .amr__h3 {
+        font-size: 20px;
+    }
+
+    .blog__txt span:last-child {
+        width: 40%;
+    }
+
+    .blog__txt p {
+        font-size: 14px;
+    }
+
+    .sec7blog__box {
+        min-height: 370px;
+    }
+
+    /* footer */
+
+    #main__footer {
+        min-height: 690px;
+    }
+
+    .ftop__sec {
+        width: 90%;
+    }
+
+    .footermain__nav {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--nft--gap--2);
+    }
+
+    .footer__end {
+        font-size: var(--nft--fontsize--2);
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__top {
+        min-height: 560px;
+    }
+}
+
+/* ========================================= */
+
+@media (max-width: 424px) {
+
+    /* Section-1 */
+
+    #sec__1 {
+        min-height: 960px;
+    }
+
+    /* Section-2 */
+
+    .categories__box {
+        min-height: 410px;
+    }
+
+    /* Section-3 */
+
+    .sbox__inner {
+        min-height: 280px;
+    }
+}
